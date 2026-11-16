@@ -1,0 +1,7 @@
+__pycache__/
+*.pt
+corpus.bin
+*_prove/
+*_cover/
+loop_work/
+.pytest_cache/

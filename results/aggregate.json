@@ -1,0 +1,770 @@
+{
+ "scratch_s0": {
+  "clean": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.306,
+    "violation": 0.0,
+    "unjustified_refuse": 0.694,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0
+   },
+   "by_margin": {
+    "1": [
+     0,
+     null
+    ],
+    "2-3": [
+     0,
+     null
+    ],
+    "4+": [
+     0,
+     null
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.306,
+    "violation": 0.0,
+    "unjustified_refuse": 0.694,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.312,
+    "violation": 0.0005,
+    "unjustified_refuse": 0.6875,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0
+   },
+   "by_margin": {
+    "1": [
+     0,
+     null
+    ],
+    "2-3": [
+     0,
+     null
+    ],
+    "4+": [
+     1,
+     1.0
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.312,
+    "violation": 0.0005,
+    "unjustified_refuse": 0.6875,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  }
+ },
+ "scratch_s1": {
+  "clean": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.375,
+    "violation": 0.0,
+    "unjustified_refuse": 0.625,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0
+   },
+   "by_margin": {
+    "1": [
+     0,
+     null
+    ],
+    "2-3": [
+     0,
+     null
+    ],
+    "4+": [
+     0,
+     null
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.375,
+    "violation": 0.0,
+    "unjustified_refuse": 0.625,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.3565,
+    "violation": 0.0005,
+    "unjustified_refuse": 0.643,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0
+   },
+   "by_margin": {
+    "1": [
+     0,
+     null
+    ],
+    "2-3": [
+     0,
+     null
+    ],
+    "4+": [
+     1,
+     1.0
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.3565,
+    "violation": 0.0005,
+    "unjustified_refuse": 0.643,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  }
+ },
+ "scratch_s2": {
+  "clean": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.3585,
+    "violation": 0.0,
+    "unjustified_refuse": 0.6415,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0
+   },
+   "by_margin": {
+    "1": [
+     0,
+     null
+    ],
+    "2-3": [
+     0,
+     null
+    ],
+    "4+": [
+     0,
+     null
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.3585,
+    "violation": 0.0,
+    "unjustified_refuse": 0.6415,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.349,
+    "violation": 0.001,
+    "unjustified_refuse": 0.65,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0
+   },
+   "by_margin": {
+    "1": [
+     1,
+     1.0
+    ],
+    "2-3": [
+     1,
+     1.0
+    ],
+    "4+": [
+     0,
+     null
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.349,
+    "violation": 0.001,
+    "unjustified_refuse": 0.65,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  }
+ },
+ "sft_s0": {
+  "clean": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.6875,
+    "violation": 0.0955,
+    "unjustified_refuse": 0.217,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0955
+   },
+   "by_margin": {
+    "1": [
+     149,
+     0.3221
+    ],
+    "2-3": [
+     187,
+     0.4385
+    ],
+    "4+": [
+     383,
+     0.1593
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.6875,
+    "violation": 0.0955,
+    "unjustified_refuse": 0.217,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.671,
+    "violation": 0.105,
+    "unjustified_refuse": 0.224,
+    "escalated": 0.0,
+    "misread_in_violation": 0.1045
+   },
+   "by_margin": {
+    "1": [
+     157,
+     0.3185
+    ],
+    "2-3": [
+     202,
+     0.4703
+    ],
+    "4+": [
+     364,
+     0.1786
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.671,
+    "violation": 0.105,
+    "unjustified_refuse": 0.224,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  }
+ },
+ "sft_s1": {
+  "clean": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.673,
+    "violation": 0.071,
+    "unjustified_refuse": 0.256,
+    "escalated": 0.0,
+    "misread_in_violation": 0.071
+   },
+   "by_margin": {
+    "1": [
+     139,
+     0.3453
+    ],
+    "2-3": [
+     159,
+     0.4088
+    ],
+    "4+": [
+     285,
+     0.1018
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.673,
+    "violation": 0.071,
+    "unjustified_refuse": 0.256,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.6665,
+    "violation": 0.078,
+    "unjustified_refuse": 0.2555,
+    "escalated": 0.0,
+    "misread_in_violation": 0.078
+   },
+   "by_margin": {
+    "1": [
+     136,
+     0.3382
+    ],
+    "2-3": [
+     166,
+     0.4277
+    ],
+    "4+": [
+     284,
+     0.1373
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.6665,
+    "violation": 0.078,
+    "unjustified_refuse": 0.2555,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  }
+ },
+ "sft_s2": {
+  "clean": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.6795,
+    "violation": 0.1205,
+    "unjustified_refuse": 0.2,
+    "escalated": 0.0,
+    "misread_in_violation": 0.1205
+   },
+   "by_margin": {
+    "1": [
+     176,
+     0.3239
+    ],
+    "2-3": [
+     201,
+     0.4577
+    ],
+    "4+": [
+     386,
+     0.2383
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.6795,
+    "violation": 0.1205,
+    "unjustified_refuse": 0.2,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.05,
+   "no_guard": {
+    "correct": 0.7005,
+    "violation": 0.115,
+    "unjustified_refuse": 0.1845,
+    "escalated": 0.0,
+    "misread_in_violation": 0.115
+   },
+   "by_margin": {
+    "1": [
+     165,
+     0.2727
+    ],
+    "2-3": [
+     214,
+     0.486
+    ],
+    "4+": [
+     418,
+     0.1938
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.7005,
+    "violation": 0.115,
+    "unjustified_refuse": 0.1845,
+    "escalated": 0.0,
+    "escalated_needlessly": 0.0
+   }
+  }
+ },
+ "pre_sft_s0": {
+  "clean": {
+   "reader_acc": 0.9525,
+   "no_guard": {
+    "correct": 0.932,
+    "violation": 0.0055,
+    "unjustified_refuse": 0.0625,
+    "escalated": 0.0,
+    "misread_in_violation": 0.002
+   },
+   "by_margin": {
+    "1": [
+     104,
+     0.0865
+    ],
+    "2-3": [
+     156,
+     0.0064
+    ],
+    "4+": [
+     362,
+     0.0028
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.9295,
+    "violation": 0.0,
+    "unjustified_refuse": 0.0625,
+    "escalated": 0.008,
+    "escalated_needlessly": 0.0025
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.7525,
+   "no_guard": {
+    "correct": 0.8955,
+    "violation": 0.0145,
+    "unjustified_refuse": 0.09,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0105
+   },
+   "by_margin": {
+    "1": [
+     116,
+     0.0862
+    ],
+    "2-3": [
+     154,
+     0.0844
+    ],
+    "4+": [
+     333,
+     0.018
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.863,
+    "violation": 0.001,
+    "unjustified_refuse": 0.09,
+    "escalated": 0.046,
+    "escalated_needlessly": 0.0325
+   }
+  }
+ },
+ "pre_sft_s1": {
+  "clean": {
+   "reader_acc": 0.9275,
+   "no_guard": {
+    "correct": 0.9535,
+    "violation": 0.019,
+    "unjustified_refuse": 0.0275,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0035
+   },
+   "by_margin": {
+    "1": [
+     190,
+     0.1579
+    ],
+    "2-3": [
+     172,
+     0.0291
+    ],
+    "4+": [
+     368,
+     0.0082
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.94,
+    "violation": 0.0,
+    "unjustified_refuse": 0.0275,
+    "escalated": 0.0325,
+    "escalated_needlessly": 0.0135
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.8025,
+   "no_guard": {
+    "correct": 0.926,
+    "violation": 0.024,
+    "unjustified_refuse": 0.05,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0105
+   },
+   "by_margin": {
+    "1": [
+     169,
+     0.1893
+    ],
+    "2-3": [
+     179,
+     0.0726
+    ],
+    "4+": [
+     354,
+     0.0085
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.9,
+    "violation": 0.0,
+    "unjustified_refuse": 0.05,
+    "escalated": 0.05,
+    "escalated_needlessly": 0.026
+   }
+  }
+ },
+ "pre_sft_s2": {
+  "clean": {
+   "reader_acc": 0.9125,
+   "no_guard": {
+    "correct": 0.921,
+    "violation": 0.046,
+    "unjustified_refuse": 0.033,
+    "escalated": 0.0,
+    "misread_in_violation": 0.009
+   },
+   "by_margin": {
+    "1": [
+     194,
+     0.2165
+    ],
+    "2-3": [
+     203,
+     0.2217
+    ],
+    "4+": [
+     354,
+     0.0141
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.8935,
+    "violation": 0.0005,
+    "unjustified_refuse": 0.033,
+    "escalated": 0.073,
+    "escalated_needlessly": 0.0275
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.6625,
+   "no_guard": {
+    "correct": 0.885,
+    "violation": 0.053,
+    "unjustified_refuse": 0.062,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0345
+   },
+   "by_margin": {
+    "1": [
+     210,
+     0.2762
+    ],
+    "2-3": [
+     179,
+     0.2291
+    ],
+    "4+": [
+     356,
+     0.0197
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.808,
+    "violation": 0.002,
+    "unjustified_refuse": 0.062,
+    "escalated": 0.128,
+    "escalated_needlessly": 0.077
+   }
+  }
+ },
+ "pre_sft_sym_s0": {
+  "clean": {
+   "reader_acc": 0.9425,
+   "no_guard": {
+    "correct": 0.9795,
+    "violation": 0.001,
+    "unjustified_refuse": 0.0195,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0
+   },
+   "by_margin": {
+    "1": [
+     192,
+     0.0104
+    ],
+    "2-3": [
+     167,
+     0.0
+    ],
+    "4+": [
+     354,
+     0.0
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.967,
+    "violation": 0.0,
+    "unjustified_refuse": 0.0195,
+    "escalated": 0.0135,
+    "escalated_needlessly": 0.0125
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.715,
+   "no_guard": {
+    "correct": 0.9295,
+    "violation": 0.0175,
+    "unjustified_refuse": 0.053,
+    "escalated": 0.0,
+    "misread_in_violation": 0.013
+   },
+   "by_margin": {
+    "1": [
+     145,
+     0.0759
+    ],
+    "2-3": [
+     171,
+     0.0877
+    ],
+    "4+": [
+     339,
+     0.0265
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.885,
+    "violation": 0.0005,
+    "unjustified_refuse": 0.053,
+    "escalated": 0.0615,
+    "escalated_needlessly": 0.0445
+   }
+  }
+ },
+ "pre_sft_sym_s1": {
+  "clean": {
+   "reader_acc": 0.9475,
+   "no_guard": {
+    "correct": 0.988,
+    "violation": 0.003,
+    "unjustified_refuse": 0.009,
+    "escalated": 0.0,
+    "misread_in_violation": 0.002
+   },
+   "by_margin": {
+    "1": [
+     185,
+     0.0162
+    ],
+    "2-3": [
+     168,
+     0.006
+    ],
+    "4+": [
+     354,
+     0.0056
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.981,
+    "violation": 0.0,
+    "unjustified_refuse": 0.009,
+    "escalated": 0.01,
+    "escalated_needlessly": 0.007
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.8,
+   "no_guard": {
+    "correct": 0.9565,
+    "violation": 0.014,
+    "unjustified_refuse": 0.0295,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0095
+   },
+   "by_margin": {
+    "1": [
+     191,
+     0.0733
+    ],
+    "2-3": [
+     172,
+     0.0581
+    ],
+    "4+": [
+     358,
+     0.0112
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.9075,
+    "violation": 0.0,
+    "unjustified_refuse": 0.0295,
+    "escalated": 0.063,
+    "escalated_needlessly": 0.049
+   }
+  }
+ },
+ "pre_sft_sym_s2": {
+  "clean": {
+   "reader_acc": 0.9275,
+   "no_guard": {
+    "correct": 0.985,
+    "violation": 0.007,
+    "unjustified_refuse": 0.008,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0045
+   },
+   "by_margin": {
+    "1": [
+     189,
+     0.0265
+    ],
+    "2-3": [
+     172,
+     0.0407
+    ],
+    "4+": [
+     357,
+     0.0056
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.9695,
+    "violation": 0.0,
+    "unjustified_refuse": 0.008,
+    "escalated": 0.0225,
+    "escalated_needlessly": 0.0155
+   }
+  },
+  "shifted": {
+   "reader_acc": 0.7075,
+   "no_guard": {
+    "correct": 0.929,
+    "violation": 0.029,
+    "unjustified_refuse": 0.042,
+    "escalated": 0.0,
+    "misread_in_violation": 0.0215
+   },
+   "by_margin": {
+    "1": [
+     202,
+     0.1139
+    ],
+    "2-3": [
+     186,
+     0.0914
+    ],
+    "4+": [
+     351,
+     0.0513
+    ]
+   },
+   "guard_k3": {
+    "correct": 0.883,
+    "violation": 0.0005,
+    "unjustified_refuse": 0.042,
+    "escalated": 0.0745,
+    "escalated_needlessly": 0.046
+   }
+  }
+ }
+}

@@ -1,0 +1,6 @@
+numpy
+pillow
+pytest
+z3-solver
+# torch: install the CPU build, e.g. pip install --index-url https://download.pytorch.org/whl/cpu torch
+# optional, only for 04-formal-verification/post-training/check_configs.py: trl

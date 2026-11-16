@@ -1,0 +1,22 @@
+[tasks]
+prove
+cover
+
+[options]
+prove: mode prove
+cover: mode cover
+depth 12
+
+[engines]
+smtbmc yices
+
+[script]
+read_verilog -formal rr_arbiter.v
+read_verilog -formal -sv rr_arbiter_props_oss.sv
+read_verilog -formal -sv top.sv
+prep -top top
+
+[files]
+rr_arbiter.v
+rr_arbiter_props_oss.sv
+top.sv

@@ -1,0 +1,13 @@
+{"target_bpb": 1.8511, "draft_bpb": 2.3944, "target_params": 3356160, "draft_params": 296832}
+{"temp": 0.0, "gamma": 1, "alpha": 0.811, "tokens_per_target_pass": 1.798, "predicted_tokens_per_pass": 1.811, "target_passes": 267, "baseline_passes": 480, "wall_speedup_cpu": 1.252, "greedy_identical": true}
+{"temp": 0.0, "gamma": 2, "alpha": 0.815, "tokens_per_target_pass": 2.4, "predicted_tokens_per_pass": 2.48, "target_passes": 200, "baseline_passes": 480, "wall_speedup_cpu": 1.315, "greedy_identical": true}
+{"temp": 0.0, "gamma": 3, "alpha": 0.838, "tokens_per_target_pass": 3.019, "predicted_tokens_per_pass": 3.13, "target_passes": 159, "baseline_passes": 480, "wall_speedup_cpu": 0.986, "greedy_identical": true}
+{"temp": 0.0, "gamma": 4, "alpha": 0.842, "tokens_per_target_pass": 3.478, "predicted_tokens_per_pass": 3.649, "target_passes": 138, "baseline_passes": 480, "wall_speedup_cpu": 1.166, "greedy_identical": true}
+{"temp": 0.0, "gamma": 6, "alpha": 0.848, "tokens_per_target_pass": 4.174, "predicted_tokens_per_pass": 4.508, "target_passes": 115, "baseline_passes": 480, "wall_speedup_cpu": 1.25, "greedy_identical": true}
+{"temp": 0.0, "gamma": 8, "alpha": 0.84, "tokens_per_target_pass": 4.571, "predicted_tokens_per_pass": 4.951, "target_passes": 105, "baseline_passes": 480, "wall_speedup_cpu": 1.005, "greedy_identical": true}
+{"temp": 1.0, "gamma": 1, "alpha": 0.697, "tokens_per_target_pass": 1.69, "predicted_tokens_per_pass": 1.697, "target_passes": 284, "baseline_passes": 480, "wall_speedup_cpu": 1.024, "greedy_identical": null}
+{"temp": 1.0, "gamma": 2, "alpha": 0.679, "tokens_per_target_pass": 2.105, "predicted_tokens_per_pass": 2.14, "target_passes": 228, "baseline_passes": 480, "wall_speedup_cpu": 1.106, "greedy_identical": null}
+{"temp": 1.0, "gamma": 3, "alpha": 0.738, "tokens_per_target_pass": 2.623, "predicted_tokens_per_pass": 2.687, "target_passes": 183, "baseline_passes": 480, "wall_speedup_cpu": 1.057, "greedy_identical": null}
+{"temp": 1.0, "gamma": 4, "alpha": 0.729, "tokens_per_target_pass": 2.807, "predicted_tokens_per_pass": 2.929, "target_passes": 171, "baseline_passes": 480, "wall_speedup_cpu": 1.031, "greedy_identical": null}
+{"temp": 1.0, "gamma": 6, "alpha": 0.715, "tokens_per_target_pass": 3.038, "predicted_tokens_per_pass": 3.17, "target_passes": 158, "baseline_passes": 480, "wall_speedup_cpu": 0.907, "greedy_identical": null}
+{"temp": 1.0, "gamma": 8, "alpha": 0.731, "tokens_per_target_pass": 3.333, "predicted_tokens_per_pass": 3.493, "target_passes": 144, "baseline_passes": 480, "wall_speedup_cpu": 0.689, "greedy_identical": null}

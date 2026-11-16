@@ -1,0 +1,21 @@
+{"linear_params": 3211264, "total_params": 3356160}
+{"config": "fp16 baseline", "bpb": 1.8511, "weight_MB": 6.423, "bits_per_weight": 16}
+{"config": "RTN int8 per-tensor", "bpb": 1.851, "weight_MB": 3.211, "bits_per_weight": 8}
+{"config": "RTN int8 per-channel", "bpb": 1.8511, "weight_MB": 3.236, "bits_per_weight": 8.062}
+{"config": "RTN int4 per-tensor", "bpb": 1.8861, "weight_MB": 1.606, "bits_per_weight": 4}
+{"config": "RTN int4 per-channel", "bpb": 1.8656, "weight_MB": 1.631, "bits_per_weight": 4.062}
+{"config": "RTN int4 g128", "bpb": 1.8626, "weight_MB": 1.656, "bits_per_weight": 4.125}
+{"config": "RTN int4 g64", "bpb": 1.8585, "weight_MB": 1.706, "bits_per_weight": 4.25}
+{"config": "RTN int4 g32", "bpb": 1.8571, "weight_MB": 1.806, "bits_per_weight": 4.5}
+{"config": "RTN int3 per-channel", "bpb": 1.9437, "weight_MB": 1.229, "bits_per_weight": 3.062}
+{"config": "RTN int3 g32", "bpb": 1.9034, "weight_MB": 1.405, "bits_per_weight": 3.5}
+{"config": "RTN int2 g32", "bpb": 2.6447, "weight_MB": 1.004, "bits_per_weight": 2.5}
+{"config": "GPTQ int4 g32", "bpb": 1.8553, "weight_MB": 1.806, "bits_per_weight": 4.5}
+{"config": "GPTQ int3 g32", "bpb": 1.8684, "weight_MB": 1.405, "bits_per_weight": 3.5}
+{"config": "GPTQ int2 g32", "bpb": 2.363, "weight_MB": 1.004, "bits_per_weight": 2.5}
+{"config": "2:4 sparse (magnitude)", "bpb": 2.401, "weight_MB": 6.423, "bits_per_weight": 16, "note": "half the weights are zero; bytes shown are dense fp16"}
+{"config": "2:4 sparse + RTN int4 g32", "bpb": 2.411, "weight_MB": 1.806, "bits_per_weight": 4.5, "note": "dense storage of the sparse weights"}
+{"config": "KV cache int8 (weights fp16)", "bpb": 1.8512, "weight_MB": 6.423, "bits_per_weight": 16}
+{"config": "KV cache int4 (weights fp16)", "bpb": 1.8601, "weight_MB": 6.423, "bits_per_weight": 16}
+{"config": "KV cache int3 (weights fp16)", "bpb": 1.9008, "weight_MB": 6.423, "bits_per_weight": 16}
+{"config": "GPTQ int4 g32 + KV int8", "bpb": 1.8552, "weight_MB": 1.806, "bits_per_weight": 4.5}

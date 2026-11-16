@@ -1,0 +1,16 @@
+[options]
+mode prove
+
+[engines]
+abc pdr
+
+[script]
+read_verilog -formal fifo.v
+read_verilog -formal fifo_opt.v
+read_verilog -formal -sv equiv.sv
+prep -top equiv
+
+[files]
+fifo.v
+fifo_opt.v
+equiv.sv
