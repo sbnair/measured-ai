@@ -69,3 +69,6 @@ Each folder goes with one article. Links are added as they are published:
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
+=======
+Measured AI model
+
